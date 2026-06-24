@@ -149,6 +149,7 @@ activemq-data/
 
 # Environments
 .env
+.env.*
 .envrc
 .venv
 env/
@@ -216,3 +217,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data
+dataset/
+
+# Model checkpoints and artifacts
+*.pt
+*.pth
+checkpoints/
+
+# Reports
+reports/
+
+# Weights & Biases
+wandb/
